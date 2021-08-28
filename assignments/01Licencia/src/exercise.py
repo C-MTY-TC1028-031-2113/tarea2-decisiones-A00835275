@@ -1,12 +1,12 @@
 
 def main():
-edad = int(input("Ingresa tu edad: "))
-if edad < 18 and edad > 0:
-    print("No cumples requisitos")
-elif edad <= 10:
-    print("Respuesta incorrecta")
-elif edad >= 18:
-    i = input("¿Tienes identificación oficial? (s/n): ")
+    edad = int(input("Ingresa tu edad: "))
+    if edad < 18 and edad > 0:
+       print("No cumples requisitos")
+    elif edad <= 10:
+       print("Respuesta incorrecta")
+    elif edad >= 18:
+       i = input("¿Tienes identificación oficial? (s/n): ")
     if i == ("s"):
         print("Trámite de licencia concedido")
     elif i == ("n"):
